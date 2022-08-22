@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 25px;
+  border: 1px solid black;
+  box-shadow: burlywood;
+  padding: 15px;
+  text-align: center;
+  color: blue;
+  margin: 15px 90px;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: flex;
+  justify-content: left;
+  font-size: 15px;
+}
+a {
+  font-weight: 600;
+  color: blue;
+  text-decoration: underline;
+  font-size: 13px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  text-align: center;
+}
+
+.coder {
+  color: blue;
+  opacity: 0.9;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+.learn {
+  display: block;
+  margin: 0 auto;
+}
