@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: rgb(221, 224, 225);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 h1,
@@ -8,15 +8,17 @@ h2 {
 }
 h1 {
   text-align: center;
-  font-size: 35px;
-  color: black;
+  font-size: 50px;
+  color: rgb(212, 42, 42);
   margin-top: 80px;
   margin-bottom: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-stretch: semi-expanded;
 }
 h2 {
-  font-size: 25px;
-  border: 1px solid black;
-  box-shadow: burlywood;
+  font-size: 35px;
+  border: 1px solid rgb(212, 68, 68);
+  box-shadow: rgb(15, 14, 14);
   padding: 15px;
   text-align: center;
   color: blue;
@@ -25,6 +27,7 @@ h2 {
 p {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 li {
   display: flex;
